@@ -65,6 +65,7 @@ p {
     width: 45%;
     margin-top: 8cm;
     margin-left:2cm;
+    border-radius: 8px;
 }
 
 .jumbo-buttons {
