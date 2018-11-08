@@ -150,7 +150,7 @@ p2 {
     /* font-size:20pt; */
     /* display: inline-block; */
     position: absolute;
-    bottom: 0;
+    bottom: 1cm;
     background: rgba(0, 0, 0, 0.5);
     color: white;
     width: 80%;
