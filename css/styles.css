@@ -5,25 +5,28 @@ body {
 
 h1 {
     font-size: 30pt;
+    font-weight: bold;
 }
 h2 {
-    font-size: 30pt;
+    font-size: 24pt;
+    font-weight: bold;
 }
 h3 {
-    font-size: 30pt;
+    font-size: 20pt;
+    
 }
-h4 {
-    font-size: 30pt;
+p1 {
+    font-size: 18pt;
 }
 
-p {
+p2 {
     font-size: 16pt;
     /* font-weight: bold; */
 }
 
 
 .navbar {
-    background-color:;
+    background: color 0;;
 }
 
 .navbar-brand {
@@ -34,7 +37,7 @@ p {
     margin-left: .5cm;
     margin-right: 1cm;
     font-size: 20pt;
-    color: white;
+    color: green;
 }
 .nav-item {
     padding-left: 2cm;
@@ -57,7 +60,7 @@ p {
 }
 
 /* .jumbotron {
-    /* border: 2px solid #4DA950; */
+    border: 2px solid #4DA950;
     background: url(../img/students-recycling.jpg) no-repeat center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -84,19 +87,19 @@ p {
 
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
-    position: fixed;
+    /* position: fixed; */
     right: 0;
     bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
+    /* min-width: 100%;  */
+    height: 50%;
 }
 
 /* Add some content at the bottom of the video/page */
 .content {
     position: fixed;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
+    top: 0;
+    /* background: rgba(0, 0, 0, 0.5); */
+    color: white;
     width: 100%;
     padding: 20px;
 }
@@ -104,7 +107,7 @@ p {
 /* Style the button used to pause/play the video */
 #myBtn {
     width: 200px;
-    font-size: 18px;
+    font-size: 16px;
     padding: 10px;
     border: none;
     background: #000;
@@ -115,6 +118,7 @@ p {
 #myBtn:hover {
     background: #ddd;
     color: black;
+}
 
 .btn-primary {
     background-color: #4DA950;
@@ -126,8 +130,9 @@ p {
 }
 
 .row1 {
-    /* padding: 0;
-margin: 0 auto; */
+    /* padding: 0; */
+/* margin: 0 auto; */
+/* display: inline-block; */
 }
 
 .evergreen {
@@ -135,18 +140,39 @@ margin: 0 auto; */
     border-radius: 6px; */
     /* margin: .5cm;
     padding:.5cm; */
-    position: relative;
-    text-align: center;
-    color: white;
-    font-weight: bolder;
-    font-size:20pt;
+    /* position: relative;
+    text-align: center; */
+    /* color: white;
+    font-weight: bolder; */
+    /* font-size:20pt; */
+    /* display: inline-block; */
 }
 
-.centered {
+.container {
+    position: relative; 
+    max-width: 854px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+  
+  .container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    /* background: rgb(0, 0, 0); Fallback color */
+    /* background: rgba(0, 0, 0, 0.5); Black background with 0.5 opacity */
+    color: #ffffff; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 5px; /* Some padding */
+    text-align: center;
+  }
+
+/* .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: #4DA950;
+    opacity: .5;
+    padding:.5em;
 }
 
 .top-left {
@@ -155,14 +181,14 @@ margin: 0 auto; */
     left: 16px;
     color: white;
     font-weight: bolder;
-    font-size:20pt;
+    /* font-size:20pt; */
 }
 
-.bottom-left {
+/* .bottom-left {
     position: absolute;
-    bottom: 8px;
+    bottom: 8px; 
     left: 16px;
-}
+} */
 
 .row2 {
     /* margin: 0 auto;
