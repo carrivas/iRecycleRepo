@@ -14,8 +14,8 @@ h2 {
 h3 {
     font-size: 20pt;
     font-weight: bold;
-    
 }
+
 p1 {
     font-size: 18pt;
 }
@@ -27,7 +27,7 @@ p2 {
 
 
 .navbar {
-    background: color 0;
+    background-color: #4A90E2;
 }
 
 .navbar-brand {
@@ -38,13 +38,14 @@ p2 {
     margin-left: .5cm;
     margin-right: 1cm;
     font-size: 20pt;
-    color: green;
+    color: white;
+    
 }
 .nav-item {
-    padding-left: 2cm;
+    padding-left: 1cm;
 }
 
-.form-control {
+/* .form-control {
     color: #167AF6;
 }
 .btn-outline-success {
@@ -58,78 +59,44 @@ p2 {
     border-color: white;
     background-color: #167AF6;
     border: none;
-}
-
-/* .jumbotron {
-    border: 2px solid #4DA950;
-    background: url(../img/students-recycling.jpg) no-repeat center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: 85%;
-    color: #167AF6;
-    font-weight: bold;
-    background-position-y: -2.5cm;
 } */
 
-.textbox {
-    /* background-color: white;
-    opacity: .6;
+.jumbotron {
+    background: url(../img/HeroImage.png);
+    background-size: contain;
+    padding-bottom: 7cm;
+}
+
+.container2 {
+
+    /* background-color: #4A90E2;
+    opacity: .6; */
     padding: 0;
-    width: 45%;
-    margin-top: 8cm;
-    margin-left:2cm;
-    border-radius: 8px; */
-}
+    width: 60%;
+    /* margin-top: .5cm; */
+    position: center;
+    border-radius: 4px;
+    color: white;
+  }
 
-.jumbo-buttons {
-    /* margin: 0 auto; */
-}
-
-/* Style the video: 100% width and height to cover the entire window */
-#myVideo {
-    /* position: fixed; */
-    /* right: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%; */
-}
-
-/* Add some content at the bottom of the video/page */
-.content {
-    position: fixed;
-    top: 0;
-    /* background: rgba(0, 0, 0, 0.5); */
-    color: green;
-    width: 100%;
-    padding: 20px;
-}
-
-
-
-/* Style the button used to pause/play the video */
-#myBtn {
-    width: 200px;
-    font-size: 16px;
-    padding: 10px;
-    border: none;
-    background: #000;
-    color: #fff;
-    cursor: pointer;
-}
-
-#myBtn:hover {
-    background: #ddd;
-    color: black;
-}
-
-.btn-primary {
-    background-color: #4DA950;
-    border: none;
-}
-
-.btn-lg {
+.hero-left {
+    background-color: #4A90E2;
+    color: white;
     margin: 1cm;
+    text-decoration: none;
+    padding: .25cm;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.hero-right {
+    background-color: white;
+    color: #4A90E2;
+    margin: 1cm;
+    text-decoration: none;
+    padding: .25cm;
+    border: 1px solid #4A90E2;
+    border-radius: 4px;
 }
 
 .row1 {
@@ -153,27 +120,9 @@ p2 {
     bottom: 1cm;
     background: rgba(0, 0, 0, 0.5);
     color: white;
-    width: 80%;
+    width: 84%;
     padding:0;
 }
-
-.container2 {
-    position: relative; 
-    max-width: 854px; /* Maximum width */
-    margin: 0 auto;
-  }
-  
-  .container2 .content {
-    position: absolute; /* Position the background text */
-    top: 0; /* At the bottom. Use top:0 to append it to the top */
-    /* background: rgb(0, 0, 0); Fallback color */
-    /* background: rgba(9, 255, 0, 0.3); Black background with 0.5 opacity */
-    color: green; /* Grey text */
-    width: 100%; /* Full width */
-    /* padding: 5px; Some padding */
-    text-align: center;
-  }
-
 
 /* .centered {
     position: absolute;
