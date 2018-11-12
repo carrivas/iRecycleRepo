@@ -62,9 +62,10 @@ p2 {
 } */
 
 .jumbotron {
-    background: url(../img/HeroImage.png);
+    background: url(../img/heroImage.png);
     background-size: contain;
-    padding-bottom: 7cm;
+    padding-bottom: 10cm;
+    padding-top: 0;
 }
 
 .container2 {
@@ -72,6 +73,8 @@ p2 {
     /* background-color: #4A90E2;
     opacity: .6; */
     padding: 0;
+    /* margin: 0 auto; */
+    margin-left: 11cm;
     width: 60%;
     /* margin-top: .5cm; */
     position: center;
@@ -82,6 +85,7 @@ p2 {
 .hero-left {
     background-color: #4A90E2;
     color: white;
+
     margin: 1cm;
     text-decoration: none;
     padding: .25cm;
@@ -93,6 +97,7 @@ p2 {
     background-color: white;
     color: #4A90E2;
     margin: 1cm;
+    
     text-decoration: none;
     padding: .25cm;
     border: 1px solid #4A90E2;
