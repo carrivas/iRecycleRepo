@@ -41,6 +41,14 @@ p2 {
     color: white;
     
 }
+
+.navbar-light .navbar-nav .active>.nav-link,
+.nav-link:hover,
+.navbar-light .navbar-nav .active>.nav-link,
+.nav-link:focus {
+    color: purple;
+}
+
 .nav-item {
     padding-left: 1cm;
 }
@@ -100,8 +108,22 @@ p2 {
     font-weight: bold;
     text-decoration: none;
     padding: .25cm;
-    border: 1px solid #4A90E2;
+    border: 2px solid #4A90E2;
     border-radius: 4px;
+}
+
+.hero-left:hover,
+.hero-left:focus {
+    background-color: white;
+    color: #4A90E2;
+    text-decoration: none;
+}
+
+.hero-right:hover,
+.hero-right:focus {
+    background-color: #4A90E2;
+    color: white;
+    text-decoration: none;
 }
 
 .row1 {
