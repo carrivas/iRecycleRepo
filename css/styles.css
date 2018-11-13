@@ -127,10 +127,10 @@ p2 {
     border: 2px solid purple;
 }
 
-.rowWin {
-    margin: 0 auto;
-    margin-left: 9.85cm;
+.row {
+    text-align: center;
 }
+
 .container {
     /* border: 2px solid #4DA950; */
     border-radius: 6px;
@@ -138,6 +138,7 @@ p2 {
     /* padding:1cm;  */
     /* width: 95%; */
 }
+
 
 .container3 {
     /* border: 2px solid #4DA950; */
@@ -192,6 +193,10 @@ p2 {
     margin: .5cm;
 }
 
+.rowWin {
+    margin-left: 9.85cm;
+}
+
 /* .col1 {
     background-color: #71A256;
 } */
@@ -221,7 +226,7 @@ p2 {
 } */
 
 .row2 {
-    margin-top: .5cm;
+    margin-top: 1cm;
     border: 2px solid black;
     /* margin: 0 auto;
     
@@ -231,7 +236,7 @@ p2 {
 }
 
 .geti {
-    margin-top: .5cm;
+    margin-top: 1.5cm;
     /* border: 2px solid #4DA950;
     border-radius: 6px; */
     /* margin: .5cm;
