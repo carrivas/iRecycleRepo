@@ -127,10 +127,10 @@ p2 {
     border: 2px solid purple;
 }
 
-.winners {
-    text-align: center;
+.rowWin {
+    margin: 0 auto;
+    margin-left: 9.85cm;
 }
-
 .container {
     /* border: 2px solid #4DA950; */
     border-radius: 6px;
@@ -138,7 +138,6 @@ p2 {
     /* padding:1cm;  */
     /* width: 95%; */
 }
-
 
 .container3 {
     /* border: 2px solid #4DA950; */
@@ -175,21 +174,21 @@ p2 {
 .win1 {
     padding: .5cm;
     background-color: #71A256;
-    border-radius: 6px;
+    border-radius: 4px;
     margin: .5cm;
 }
 
 .win2 {
     padding: .5cm;
-    border: 1px solid black;
-    border-radius: 6px;
+    border: .5px solid #979797;
+    border-radius: 4px;
     margin: .5cm;
 }
 
 .win3 {
     padding: .5cm;
     background-color: #4A90E2;
-    border-radius: 6px;
+    border-radius: 4px;
     margin: .5cm;
 }
 
@@ -222,21 +221,43 @@ p2 {
 } */
 
 .row2 {
-    margin-top: 1cm;
+    margin-top: .5cm;
+    border: 2px solid black;
     /* margin: 0 auto;
-    border: 2px solid #4DA950;
+    
     border-radius: 6px;
     margin: .5cm;*/
-    padding:1cm;  
+    /* padding:1cm;   */
 }
 
 .geti {
-    margin-top: 1.5cm;
+    margin-top: .5cm;
     /* border: 2px solid #4DA950;
     border-radius: 6px; */
     /* margin: .5cm;
     padding:1cm;     */
 }
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: white;
+    color:#979797;
+    border-color: white;
+}
+
+.btn-success:hover,
+.btn-success:focus {
+    background-color: #4A90E2;
+    border-color: #4A90E2;
+}
+
+.btn-light:hover,
+.btn-light:focus {
+    background-color: #71A256;
+    border-color: #71A256;
+}
+
+
 .row3 {
     /* border: 2px solid #4DA950;
     border-radius: 6px; */
