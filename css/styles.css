@@ -1,5 +1,5 @@
 body {
-    font-family: 'Maven Pro', sans-serif;
+    font-family: 'maven pro', sans-serif;
     box-sizing: border-box;
 }
 
@@ -115,17 +115,38 @@ p2 {
 .hero-left:hover,
 .hero-left:focus {
     background-color: white;
-    color: #4A90E2;
+    color: purple;
     text-decoration: none;
 }
 
 .hero-right:hover,
 .hero-right:focus {
-    background-color: #4A90E2;
+    background-color: purple;
     color: white;
     text-decoration: none;
+    border: 2px solid purple;
 }
 
+.winners {
+    text-align: center;
+}
+
+.container {
+    /* border: 2px solid #4DA950; */
+    border-radius: 6px;
+    margin: 0 auto;
+    /* padding:1cm;  */
+    /* width: 95%; */
+}
+
+
+.container3 {
+    /* border: 2px solid #4DA950; */
+    border-radius: 6px;
+    margin: 0 auto;
+    /* padding: .5cm;  */
+    width: 100%;
+}
 .row1 {
     /* padding: 0; */
 /* margin: 0 auto; */
@@ -144,13 +165,37 @@ p2 {
     /* font-size:20pt; */
     /* display: inline-block; */
     position: absolute;
-    bottom: 1cm;
+    bottom: 2.4cm;
     background: rgba(0, 0, 0, 0.5);
     color: white;
-    width: 84%;
+    width: 89%;
     padding:0;
 }
 
+.win1 {
+    padding: .5cm;
+    background-color: #71A256;
+    border-radius: 6px;
+    margin: .5cm;
+}
+
+.win2 {
+    padding: .5cm;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: .5cm;
+}
+
+.win3 {
+    padding: .5cm;
+    background-color: #4A90E2;
+    border-radius: 6px;
+    margin: .5cm;
+}
+
+/* .col1 {
+    background-color: #71A256;
+} */
 /* .centered {
     position: absolute;
     top: 50%;
@@ -177,14 +222,16 @@ p2 {
 } */
 
 .row2 {
+    margin-top: 1cm;
     /* margin: 0 auto;
     border: 2px solid #4DA950;
     border-radius: 6px;
-    margin: .5cm;
-    padding:1cm;  */
+    margin: .5cm;*/
+    padding:1cm;  
 }
 
 .geti {
+    margin-top: 1.5cm;
     /* border: 2px solid #4DA950;
     border-radius: 6px; */
     /* margin: .5cm;
@@ -205,10 +252,4 @@ p2 {
     text-align: center;
 }
 
-.container {
-    /* border: 2px solid #4DA950;
-    border-radius: 6px;
-    margin: .5cm;
-    padding:1cm;  */
-    /* margin-top: .5cm; */
-}
+
