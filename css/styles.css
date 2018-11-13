@@ -31,12 +31,12 @@ p2 {
 }
 
 .navbar-brand {
-    padding-left: 2cm;
+    padding-left: 2.5cm;
 }
 .navbar-light .navbar-nav .active>.nav-link,
 .nav-link {
     margin-left: .5cm;
-    margin-right: 1cm;
+    margin-right: .5cm;
     font-size: 20pt;
     color: white;
     
@@ -64,8 +64,8 @@ p2 {
 .jumbotron {
     background: url(../img/heroImage.png);
     background-size: contain;
-    padding-bottom: 10cm;
-    padding-top: 0;
+    padding-bottom: 9.2cm;
+    padding-top: 1.25cm;
 }
 
 .container2 {
@@ -74,7 +74,7 @@ p2 {
     opacity: .6; */
     padding: 0;
     /* margin: 0 auto; */
-    margin-left: 11cm;
+    margin-left: 12.5cm;
     width: 60%;
     /* margin-top: .5cm; */
     position: center;
@@ -85,19 +85,19 @@ p2 {
 .hero-left {
     background-color: #4A90E2;
     color: white;
-
-    margin: 1cm;
+    margin: .75cm;
     text-decoration: none;
     padding: .25cm;
     border: 1px solid white;
     border-radius: 4px;
+    font-weight: bold;
 }
 
 .hero-right {
     background-color: white;
     color: #4A90E2;
-    margin: 1cm;
-    
+    margin: .75cm;
+    font-weight: bold;
     text-decoration: none;
     padding: .25cm;
     border: 1px solid #4A90E2;
