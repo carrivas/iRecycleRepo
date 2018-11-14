@@ -41,6 +41,7 @@ p2 {
     margin-right: .5cm;
     font-size: 20pt;
     color: white;
+    text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.3);
     
 }
 
@@ -102,6 +103,7 @@ p2 {
     border: 1px solid white;
     border-radius: 4px;
     font-weight: bold;
+    box-shadow: -3px 3px 2px rgba(0, 0, 0, 0.3);
 }
 
 .hero-right {
@@ -113,6 +115,7 @@ p2 {
     padding: .25cm;
     border: 2px solid #4A90E2;
     border-radius: 4px;
+    box-shadow: -3px 3px 2px rgba(0, 0, 0, 0.3);
 }
 
 .hero-left:hover,
@@ -195,7 +198,7 @@ margin-bottom:1cm;
 
 .win3 {
     padding: .5cm;
-    border: .5px solid #979797;
+    border: .5px solid #53B54B;
     /* background-color: #FDCE29; */
     border-radius: 4px;
     margin: .5cm;
@@ -262,18 +265,21 @@ margin-bottom:1cm;
     background-color: #4A90E2;
     color:black;
     border-color: #4A90E2;
+    box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
 .btn-light,
 .btn-light {
     background-color: #FDCE29;
     border-color: #FDCE29;
+    box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
 .btn-success,
 .btn-success {
     background-color: #53B54B;
     border-color: #53B54B;
+    box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
 .btn-primary:hover,
