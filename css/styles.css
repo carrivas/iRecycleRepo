@@ -71,7 +71,8 @@ p2 {
 
 .jumbotron {
     background: url(../img/heroImage.png);
-    background-size: contain;
+    /* background: url(../img/river.jpg); */
+    background-size: cover;
     padding-bottom: 9.2cm;
     padding-top: 1.25cm;
 }
@@ -146,6 +147,7 @@ p2 {
     margin: 0 auto;
     /* padding: .5cm;  */
     width: 100%;
+    
 }
 .row1 {
     /* padding: 0; */
@@ -175,9 +177,10 @@ margin-bottom:1cm;
 
 .win1 {
     padding: .5cm;
-    background-color: #71A256;
+    background-color: #53B54B;
     border-radius: 4px;
     margin: .5cm;
+    box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.3);
 }
 
 .win2 {
@@ -185,6 +188,7 @@ margin-bottom:1cm;
     background-color: #4A90E2;
     border-radius: 4px;
     margin: .5cm;
+    box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.3);
 }
 
 .win3 {
@@ -192,6 +196,7 @@ margin-bottom:1cm;
     border: .5px solid #979797;
     border-radius: 4px;
     margin: .5cm;
+    box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.3);
 }
 
 .rowWin {
@@ -230,13 +235,14 @@ margin-bottom:1cm;
 
 
 .row2 {
-    border: 2px solid #4DA950;
+    border: 2px solid #53B54B;
     border-radius: 6px;
     /* margin: 0 auto;
     border-radius: 6px; */
     margin: .1cm;
     padding:.25cm; 
     margin-bottom:1cm; 
+    box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.3);
 }
 
 .geti {
@@ -245,6 +251,7 @@ margin-bottom:1cm;
     border-radius: 6px; */
     margin: .25cm;
     padding:.25cm;   
+    
      
 }
 
@@ -263,8 +270,8 @@ margin-bottom:1cm;
 
 .btn-light:hover,
 .btn-light:focus {
-    background-color: #71A256;
-    border-color: #71A256;
+    background-color: #53B54B;
+    border-color: #53B54B;
 }
 
 
@@ -282,6 +289,16 @@ margin-bottom:1cm;
     border-radius: 6px;
     margin: .3cm;
     padding: 1cm;
+    box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.3);
+}
+
+.partnerC {
+    background-color: #53B54B;
+    /* border: .5px solid #979797; */
+    border-radius: 6px;
+    margin: .3cm;
+    padding: 1cm;
+    box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.3);
     /* position: relative; */
     /* text-align: center; */
    
