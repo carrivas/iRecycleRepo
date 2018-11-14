@@ -69,6 +69,14 @@ p2 {
     border: none;
 } */
 
+.header {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1cm;
+    margin-bottom: .5cm;
+    color: #53B54B
+}
+
 .progress {
     margin: 1cm;
 }
