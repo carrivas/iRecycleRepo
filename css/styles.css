@@ -277,7 +277,8 @@ margin-bottom:1cm;
 }
 
 .partners {
-    border: .5px solid #979797;
+    background-color: #4A90E2;
+    /* border: .5px solid #979797; */
     border-radius: 6px;
     margin: .3cm;
     padding: 1cm;
