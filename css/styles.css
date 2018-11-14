@@ -250,10 +250,9 @@ margin-bottom:1cm;
     /* border: 2px solid #4DA950;
     border-radius: 6px; */
     margin: .25cm;
-    padding:.25cm;   
-    
-     
+    padding:.25cm;     
 }
+
 
 .btn-primary:hover,
 .btn-primary:focus {
@@ -312,7 +311,7 @@ margin-bottom:1cm;
 }
 
 .footerlogo {
-    margin: .5cm;
+    margin: 0 auto;
     padding: .5cm;
 }
 

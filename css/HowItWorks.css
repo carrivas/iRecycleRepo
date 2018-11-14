@@ -1,0 +1,85 @@
+body {
+    font-family: 'maven pro', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'maven pro', sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 30pt;
+    font-weight: bold;
+}
+h2 {
+    font-size: 24pt;
+    font-weight: bold;
+}
+h3 {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+p1 {
+    font-size: 18pt;
+}
+
+p2 {
+    font-size: 16pt;
+    /* font-weight: bold; */
+}
+
+
+.navbar {
+    background-color: #4A90E2;
+}
+
+.navbar-brand {
+    padding-left: 2.5cm;
+}
+.navbar-light .navbar-nav .active>.nav-link,
+.nav-link {
+    margin-left: .5cm;
+    margin-right: .5cm;
+    font-size: 20pt;
+    color: white;
+    
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.nav-link:hover,
+.navbar-light .navbar-nav .active>.nav-link,
+.nav-link:focus {
+    color: purple;
+}
+
+.nav-item {
+    padding-left: 1cm;
+}
+
+.header {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1cm;
+    margin-bottom: .5cm;
+    color: #53B54B
+}
+
+.subheader {
+    font-weight: bold;
+    text-align: center;
+    margin-top: .5cm;
+    margin-bottom: 1cm;
+    color: #53B54B
+}
+
+.iconW {
+margin: 1cm;
+}
+
+.works {
+    margin: 0 auto;
+    width: 15%;
+}
+
