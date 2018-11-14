@@ -2,6 +2,7 @@ body {
     font-family: 'maven pro', sans-serif;
     box-sizing: border-box;
     /* background-color: rgba(253, 206, 41, 0.5) */
+
 }
 
 h1 {
@@ -277,9 +278,9 @@ margin-bottom:1cm;
 
 .btn-primary:hover,
 .btn-primary:focus {
-    background-color: #FDCE29;
+    background-color: white;
     color:black;
-    border-color: #FDCE29;
+    border-color: white;
 }
 
 .btn-success:hover,
