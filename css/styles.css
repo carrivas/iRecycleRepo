@@ -227,13 +227,7 @@ margin-bottom:1cm;
     left: 16px;
 } */
 
-.containerGeti {
-    /* border: 2px solid #4DA950;
-    border-radius: 6px; */
-    /* padding:1cm;  */
-    /* width: 95%; */
-    
-}
+
 
 .row2 {
     border: 2px solid #4DA950;
@@ -285,9 +279,9 @@ margin-bottom:1cm;
 .partners {
     border: .5px solid #979797;
     border-radius: 6px;
-    /* margin: .5cm; */
-    padding:.5cm;
-    position: relative;
+    margin: .3cm;
+    padding: 1cm;
+    /* position: relative; */
     /* text-align: center; */
    
 }
@@ -300,6 +294,10 @@ margin-bottom:1cm;
 }
 
 .footerlogo {
-    margin: 1cm;
+    margin: .5cm;
+    padding: .5cm;
 }
 
+.btn-sm {
+    float:right;
+} 
