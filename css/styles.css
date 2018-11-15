@@ -32,7 +32,7 @@ h4 {
 }
 
 p1 {
-    font-size: 18pt;
+    font-size: 17pt;
 }
 
 p2 {
@@ -103,10 +103,10 @@ p2 {
     opacity: .6; */
     padding: 0;
     /* margin: 0 auto; */
-    margin-left: 12.5cm;
+    margin-left: 8cm;
     width: 60%;
     /* margin-top: .5cm; */
-    position: center;
+    text-align: center;
     border-radius: 4px;
     color: white;
   }
@@ -199,7 +199,7 @@ margin-bottom:1cm;
 
 .win1 {
     padding: .5cm;
-    background-color: #53B54B;
+    background-color: white;
     border-radius: 4px;
     margin: .5cm;
     /* box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.3); */
@@ -207,7 +207,7 @@ margin-bottom:1cm;
 
 .win2 {
     padding: .5cm;
-    background-color: #4A90E2;
+    background-color: white;
     border-radius: 4px;
     margin: .5cm;
     /* box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.3); */
@@ -215,7 +215,7 @@ margin-bottom:1cm;
 
 .win3 {
     padding: .5cm;
-    border: .5px solid #53B54B;
+    border: .5px solid white;
     background-color: white;
     border-radius: 4px;
     margin: .5cm;
@@ -261,8 +261,8 @@ margin-bottom:1cm;
 
 
 .row2 {
-    /* border: 2px solid #53B54B; */
-    /* border-radius: 6px; */
+    /* border: 1px solid #009C2D;
+    border-radius: 6px; */
     /* margin: 0 auto;
     border-radius: 6px; */
     /* background-color: #FDCE29; */
@@ -297,8 +297,9 @@ margin-bottom:1cm;
 
 .btn-success,
 .btn-success {
-    background-color: #53B54B;
-    border-color: #53B54B;
+    width: 8cm;
+    background-color: #009C2D;
+    border-color: #009C2D;
     /* box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.3); */
 }
 
@@ -321,9 +322,9 @@ margin-bottom:1cm;
     border-color: #53B54B;
 }
 
-.btn-sm {
+/* .btn-sm {
     float:right;
-} 
+}  */
 
 .row3 {
     /* border: 2px solid #4DA950;
@@ -335,7 +336,7 @@ margin-bottom:1cm;
 
 .partnersU {
     background-color: white;
-    border: .5px solid #53B54B;
+    border: .5px solid #979797;
     border-radius: 6px;
     margin: .3cm;
     padding: 1cm;
@@ -343,8 +344,8 @@ margin-bottom:1cm;
 }
 
 .partnerC {
-    background-color: #4A90E2;
-    /* border: .5px solid #979797; */
+    background-color: white;
+    border: .5px solid #979797;
     border-radius: 6px;
     margin: .3cm;
     padding: 1cm;
