@@ -12,10 +12,12 @@ h1 {
 h2 {
     font-size: 24pt;
     font-weight: bold;
+    color: #4A90E2;
 }
 h3 {
     font-size: 20pt;
     font-weight: bold;
+    color: #009C2D;
 }
 
 p1 {
@@ -69,23 +71,33 @@ p2 {
     background-color: #167AF6;
     border: none;
 } */
-
 .header {
     font-weight: bold;
     text-align: center;
     margin-top: 1cm;
     margin-bottom: .5cm;
-    color: #979797;
+
 }
 
+.subheader {
+    font-weight: bold;
+    text-align: center;
+    margin-top: .5cm;
+    margin-bottom: .5cm;
+ 
+}
 
-  
+.chart {
+    width: 90%;
+    margin: 0 auto;
+}
+
   .progress-bar {
       /* position: absolute; */
       display: block;
       width: 100%;
       color: white;
-      background-color: #009C2D;
+      background-color: #4A90E2;;
       font-weight: bold;
       border-radius: 24px;
   }
@@ -95,7 +107,7 @@ p2 {
     display: block;
     width: 100%;
     color: white;
-    background-color: #009C2D;
+    background-color: #4A90E2;;
     font-weight: bold;
     border-radius: 24px;
 }
