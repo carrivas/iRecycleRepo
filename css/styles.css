@@ -402,7 +402,7 @@ margin-bottom:1cm;
 }
 
 .navbar-brand {
-    padding-left: 0cm;
+    padding-left: 1.5cm;
 }
 
 .container2 {
@@ -418,6 +418,12 @@ margin-bottom:1cm;
 /* .evergreen {
     width:92.5%;
 } */
+
+h4 {
+    width:100%;
+    text-align: center;
+    padding-left:0cm;
+}
 
 @media screen and (max-width: 600px) {
 .container2 {
