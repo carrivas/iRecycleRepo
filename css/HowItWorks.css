@@ -1,7 +1,7 @@
 body {
     font-family: 'maven pro', sans-serif;
     box-sizing: border-box;
-    color: #4d4d4d;
+    color: #4E5057;
 
 }
 
@@ -31,7 +31,7 @@ h4 {
 
 p {
     font-size: 16px;
-    color: #979797;
+    color: #4E5057;
 }
 
 p1 {
@@ -93,7 +93,7 @@ p2 {
     text-align: center;
     margin-top: 1cm;
     margin-bottom: .5cm;
-    color: #009C2D;
+    color: #4E5057;
 }
 
 .subheader {
@@ -101,7 +101,7 @@ p2 {
     text-align: center;
     margin-top: .5cm;
     margin-bottom: .5cm;
-    color: #009C2D;
+    color: #4E5057;
 }
 
 .iconW {
