@@ -103,6 +103,7 @@ p3 {
       url(../img/heroImage.png);
     /* background: url(../img/river.jpg); */
     background-size: cover;
+    background-position: center;
     padding-bottom: 9.2cm;
     padding-top: 1.25cm;
 }
@@ -277,15 +278,17 @@ margin-bottom:1cm;
     margin: .1cm;
     padding:.25cm; 
     margin-bottom:1cm; 
-
 }
+/* .containerGeti {
+
+ } */
 
 .geti {
     /* margin: 1cm; */
     /* border: 2px solid #4DA950;
     border-radius: 6px; */
-    margin: .25cm;
-    padding:.25cm;     
+
+    padding:.25cm;  
 }
 
 .btn-primary,
@@ -383,3 +386,66 @@ margin-bottom:1cm;
     color: white;
     /* margin-left:1.25cm; */
 }
+
+
+@media screen and (max-width: 1025px) {
+
+/* .navbar-nav {
+    display: none;
+    } */
+
+.navbar-light .navbar-nav .active>.nav-link,
+.nav-link {
+    margin-left: 0cm;
+    margin-right: 0cm;
+    font-size: 16px;
+}
+
+.navbar-brand {
+    padding-left: 0cm;
+}
+
+.container2 {
+    width: 100%;
+    margin-left: 1cm;
+}
+
+.jumbo-buttons {
+    padding-left:1.5cm;
+    }
+}
+
+/* .evergreen {
+    width:92.5%;
+} */
+
+@media screen and (max-width: 600px) {
+.container2 {
+    margin-left:0;
+    padding-right: 0cm;
+    }
+
+.navbar-brand {
+        padding-left: 3.5cm;
+    }
+.jumbo-buttons {
+    padding-left:.5cm;
+    }
+/* .navbar-toggler {
+    display: show;
+    color:white;
+} */
+}
+
+h1 {
+    font-size: 20pt;
+}
+h4 {
+    width:80%;
+    text-align: center;
+    padding-left:1.7cm;
+}
+
+
+
+    
