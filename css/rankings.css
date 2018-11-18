@@ -96,9 +96,13 @@ p2 {
     margin: 0 auto;
 }
 
+.progress {
+    width:100%;
+}
+
   .progress-bar {
       /* position: absolute; */
-      display: block;
+      /* display: block; */
       width: 100%;
       color: white;
       background-color: #009C2D;
@@ -108,7 +112,7 @@ p2 {
 
   .progress span {
     /* position: absolute; */
-    display: block;
+    /* display: block; */
     width: 100%;
     color: white;
     background-color: #009C2D;

@@ -67,6 +67,14 @@ p3 {
     color: white;
 }
 
+.navbar-toggler {
+    border: 2px solid white;
+}
+
+.navbar-toggler i {
+    color: #fff;
+}
+
 .navbar-light .navbar-nav .active>.nav-link,
 .nav-link:hover,
 .navbar-light .navbar-nav .active>.nav-link,
